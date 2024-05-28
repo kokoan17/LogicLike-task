@@ -1,0 +1,16 @@
+.coursesPage {
+  padding: 24px;
+
+  &__content {
+    display: flex;
+    gap: 24px;
+
+    &__courses {
+      width: 100%;
+      height: fit-content;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 18px;
+    }
+  }
+}

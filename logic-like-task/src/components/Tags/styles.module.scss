@@ -1,0 +1,34 @@
+.tags {
+  width: 264px;
+  padding: 12px;
+  border: 1px solid #cfcfe4;
+  border-radius: 18px;
+
+  &__items {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__item {
+    cursor: pointer;
+    padding: 12px;
+    border-radius: 12px;
+
+    p {
+      color: #39414b;
+      font-family: "Nunito", sans-serif;
+      font-size: 18px;
+      font-weight: 800;
+      line-height: 18px;
+      letter-spacing: -0.1px;
+    }
+
+    &.active {
+      background: #5fbf77;
+
+      p {
+        color: #ffffff;
+      }
+    }
+  }
+}
